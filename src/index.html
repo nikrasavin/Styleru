@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Styleru top" />
+    <meta name="author" content="N Krasavin" />
+    <title>Styleru</title>
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="header__logo">
+          <img src="img/logo.png" alt="Райффайзен банк" />
+        </div>
+        <div class="header__main menu">
+          <ul class="header__info">
+            <li href="#" class="header__title">Частным лицам</li>
+            <li href="#" class="header__title gray">Малому бизнесу</li>
+            <li href="#" class="header__title gray">Корпоративному бизнесу</li>
+            <li href="#" class="header__title gray">Premium</li>
+            <li href="#" class="header__title gray">Private</li>
+          </ul>
+          <div class="header__info">
+            <a href="#" class="header__title">О банке</a>
+            <a href="#" class="header__title">Офисы</a>
+            <a href="#" class="header__title">Банкоматы</a>
+            <a href="#"
+              ><img
+                class="header__icons"
+                src="icons/location.svg"
+                alt="Локация"
+            /></a>
+            <a href="#"
+              ><img
+                class="header__icons"
+                src="icons/web-site.svg"
+                alt="Вебсайт"
+            /></a>
+            <a href="#"
+              ><img class="header__icons" src="icons/chat-1.svg" alt="Чат"
+            /></a>
+          </div>
+        </div>
+      </header>
+      <nav>
+        <div class="navbar menu">
+          <div class="header__info">
+            <a href="#" class="header__title">Карты</a>
+            <a href="#" class="header__title">Инвестиции</a>
+            <a href="#" class="header__title">Вклады</a>
+            <a href="#" class="header__title">Кредиты</a>
+            <a href="#" class="header__title">Ипотека</a>
+            <a href="#" class="header__title">Страхование</a>
+            <a href="#" class="header__title">Переводы</a>
+            <a href="#" class="header__title">Сервисы</a>
+          </div>
+          <div class="navbar__buttons">
+            <button class="navbar__btn">Онлайн-банк</button>
+            <button class="navbar__btn">Стать клиентом</button>
+          </div>
+        </div>
+      </nav>
+      <section class="client">
+        <div class="container">
+          <h1 class="title">
+            Стать клиентом<br />
+            <span>
+              Оформите карту с кэшбэком 1,5%<br />
+              и бесплатным обслуживанием
+            </span>
+          </h1>
+          <div class="client__button">
+            <form action="#">
+              <button type="submit" class="btn-black">Оформить онлайн</button>
+            </form>
+          </div>
+          <div class="client__img">
+            <img
+              src="img/Platform.png"
+              alt="платформа"
+              class="client__platform"
+            />
+            <a class="client__animation">
+              <img
+                src="img/Gift_1.png"
+                alt="подарок 1"
+                class="client__gift-1"
+              />
+            </a>
+            <a class="client__animation"
+              ><img
+                src="img/Gift_2.png"
+                alt="подарок 2"
+                class="client__gift-2"
+              />
+            </a>
+            <a class="client__animation"
+              ><img src="img/Card.png" alt="карта" class="client__card"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="application">
+        <div class="container">
+          <h1 class="title">
+            Стать клиентом<br />
+            <span>
+              Оформите карту с кэшбэком 1,5%<br />
+              и бесплатным обслуживанием
+            </span>
+          </h1>
+          <div class="application__form">
+            <div class="application__form-header">
+              <img src="img/form-card.png" alt="карта" />
+              <div class="application__form-header-blur">
+                <div class="blur-text">
+                  <h3>2%</h3>
+                  <span>кэшбэк рублями</span>
+                </div>
+                <div class="blur-text">
+                  <h3>0₽</h3>
+                  <span>бесплатное обслуживание</span>
+                </div>
+                <div class="blur-text">
+                  <h3>0₽</h3>
+                  <span>бесплатная подписка</span>
+                </div>
+              </div>
+            </div>
+            <div class="application__form-body">
+              <div class="application__scale">
+                <div class="application__scale-progress"></div>
+                <div class="application__step">
+                  <h3>Заполните заявку на карту</h3>
+                  <div>
+                    <h3>Шаг</h3>
+                    <div id="step-counter">1/7</div>
+                  </div>
+                </div>
+              </div>
+              <div class="application__input">
+                <form action="">
+                  <span>Мобильный телефон</span>
+                  <input type="text" id="phone" placeholder="+7" required />
+                  <button type="button" id="next-button" class="btn-black">
+                    Далее
+                  </button>
+                </form>
+                <span class="condition">
+                  Нажимая кнопку «Далее», я соглашаюсь с условиями подачи
+                  онлайн-заявки
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="forYou">
+        <div class="container">
+          <h2>Для вас</h2>
+          <div class="forYou__products">
+            <ul class="forYou__links">
+              <li href="#" class="forYou__link selected">
+                <div>Все продукты</div>
+              </li>
+              <li href="#" class="forYou__link"><div>Для накоплений</div></li>
+              <li href="#" class="forYou__link"><div>Для покупок</div></li>
+              <li href="#" class="forYou__link">
+                <div>Другие продукты</div>
+              </li>
+            </ul>
+            <div class="forYou__grid grid__active">
+              <div id="grid-1" class="forYou__grid-element light">
+                <div class="grid-content">
+                  <h4>Кредит от 99% на любые цели</h4>
+                  <h5>Решение по онлайн-заявке за одну минуту</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+              </div>
+              <div id="grid-2" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Райффайзен инвестиции</h4>
+                  <h5>Инвестируйте с самым надежным банком по версии Forbes</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Briefcase.png" alt="Портфель" />
+              </div>
+              <div id="grid-3" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Кредитная карта 110 дней</h4>
+                  <h5>Бесплатное обслуживание при оформлении до 31.12</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img
+                  width="272px"
+                  height="171px"
+                  src="img/credit_card.png"
+                  alt="Кредитная карта"
+                />
+              </div>
+              <div id="grid-4" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Райффайзен подписка</h4>
+                  <h5>
+                    Больше кэшбэка и привилегий. Первые 3 месяца бесплатно
+                  </h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Bolt.png" alt="Молния" />
+              </div>
+              <div id="grid-5" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Стратегии для инвестиций</h4>
+                  <h5>С инструментами которые выбирает Райффайзен Капитал</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Pie_Chart.png" alt="график" />
+              </div>
+              <div id="grid-6" class="forYou__grid-element light">
+                <div class="grid-content">
+                  <h4>Ипотечные программы</h4>
+                  <h5>Решение по онлайн-заявке за одну минуту</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="forYou__grid"
+              style="grid-template-rows: minmax(277px, auto)"
+            >
+              <div id="grid-1" class="forYou__grid-element light">
+                <div class="grid-content">
+                  <h4>Кредит от 99% на любые цели</h4>
+                  <h5>Решение по онлайн-заявке за одну минуту</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+              </div>
+              <div
+                id="grid-2"
+                class="forYou__grid-element"
+                style="grid-column: 2; grid-row: 1/2"
+              >
+                <div class="grid-content">
+                  <h4>Райффайзен инвестиции</h4>
+                  <h5>Инвестируйте с самым надежным банком по версии Forbes</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Briefcase.png" alt="Портфель" />
+              </div>
+            </div>
+
+            <div
+              class="forYou__grid"
+              style="grid-template-rows: repeat(2, minmax(277px, auto))"
+            >
+              <div id="grid-3" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Кредитная карта 110 дней</h4>
+                  <h5>Бесплатное обслуживание при оформлении до 31.12</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img
+                  width="272px"
+                  height="171px"
+                  src="img/credit_card.png"
+                  alt="Кредитная карта"
+                />
+              </div>
+              <div
+                id="grid-4"
+                class="forYou__grid-element"
+                style="grid-row: 1/3"
+              >
+                <div class="grid-content">
+                  <h4>Райффайзен подписка</h4>
+                  <h5>
+                    Больше кэшбэка и привилегий. Первые 3 месяца бесплатно
+                  </h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Bolt.png" alt="Молния" />
+              </div>
+            </div>
+
+            <div
+              class="forYou__grid"
+              style="grid-template-rows: repeat(2, minmax(277px, auto))"
+            >
+              <div
+                id="grid-4"
+                class="forYou__grid-element"
+                style="grid-row: 1/3"
+              >
+                <div class="grid-content">
+                  <h4>Райффайзен подписка</h4>
+                  <h5>
+                    Больше кэшбэка и привилегий. Первые 3 месяца бесплатно
+                  </h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Bolt.png" alt="Молния" />
+              </div>
+              <div id="grid-5" class="forYou__grid-element">
+                <div class="grid-content">
+                  <h4>Стратегии для инвестиций</h4>
+                  <h5>С инструментами которые выбирает Райффайзен Капитал</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+                <img src="img/Pie_Chart.png" alt="график" />
+              </div>
+              <div id="grid-6" class="forYou__grid-element light">
+                <div class="grid-content">
+                  <h4>Ипотечные программы</h4>
+                  <h5>Решение по онлайн-заявке за одну минуту</h5>
+                </div>
+                <a class="arrow-btn" href="#">
+                  <button><span class="icon-arrow"></span></button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mobileApp">
+        <div class="container">
+          <h3 class="title">Мобильное приложение</h3>
+          <div class="mobileApp__online">
+            <img src="img/mobile_app.jpg" alt="Мобильное приложение" />
+            <div class="mobileApp__online-content">
+              <h4 class="content-title">Raiffeisen Online</h4>
+              <div class="mobileApp__links">
+                <span class="content-subtitle"
+                  >Простой способ зайти в банк</span
+                >
+                <div>
+                  <a href="#"><span class="icon-google_play"></span></a>
+                  <a href="#"><span class="icon-apple_logo"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <h3 class="title">Сервисы</h3>
+          <ul class="services__links">
+            <li class="links">
+              <a href="#" class="block-link">Отделения</a>
+              <a href="#" class="block-link">Валюта</a>
+              <a href="#" class="block-link">База знаний</a>
+              <a href="#" class="block-link">Онлайн-банк</a>
+              <a href="#" class="block-link">Переводы</a>
+            </li>
+            <li class="extra-links link__active">
+              <a class="block-link extra-link"
+                ><span>Все</span>
+                <div>12</div>
+              </a>
+            </li>
+
+            <li class="extra-links">
+              <a href="#" class="block-link">Телеграм</a>
+              <a href="#" class="block-link">Отделения</a>
+              <a href="#" class="block-link">Валюта</a>
+              <a href="#" class="block-link">База знаний</a>
+              <a href="#" class="block-link">Онлайн-банк</a>
+              <a href="#" class="block-link">Переводы</a>
+              <a href="#" class="block-link">Телеграм</a>
+              <a href="#" class="block-link">Отделения</a>
+              <a href="#" class="block-link">Валюта</a>
+              <a href="#" class="block-link">База знаний</a>
+              <a href="#" class="block-link">Онлайн-банк</a>
+              <a href="#" class="block-link">Переводы</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="exchange">
+        <div class="container">
+          <div class="exchange__block">
+            <div class="exchange__header">
+              <h3 class="content-title">Курcы валют</h3>
+              <span class="content-subtitle">Действуют с 1 сентября</span>
+            </div>
+            <div class="exchange__currency">
+              <div class="currency__line heading">
+                <span class="currency__header">Валюта</span
+                ><span class="currency__header">Покупка</span
+                ><span class="currency__header">Продажа</span>
+              </div>
+              <div class="currency__line">
+                <span class="currency__body">Евро</span>
+                <span class="currency__body">98,89</span
+                ><span class="currency__body">109,39</span>
+                <a href="#"><span class="icon-arrows-diag"></span></a>
+              </div>
+              <hr />
+              <div class="currency__line">
+                <span class="currency__body">Доллар США</span>
+                <span class="currency__body">91,05</span
+                ><span class="currency__body">100,69</span>
+                <a href="#"><span class="icon-arrows-diag"></span></a>
+              </div>
+            </div>
+            <div class="exchange__btn">
+              <form action="#">
+                <button type="submit">Обменять онлайн</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="articles">
+        <div class="container">
+          <h3 class="title">Статьи</h3>
+          <div class="articles__wrapper">
+            <div class="articles__article">
+              <div class="article__title">
+                <h4 class="content-title">
+                  Что нужно для оформления банковской карты
+                </h4>
+                <h5 class="content-subtitle">
+                  Что нужно для оформления банковской карты
+                </h5>
+              </div>
+              <a href="#" class="arrow-btn"
+                ><button><span class="icon-arrow"></span></button
+              ></a>
+            </div>
+            <hr />
+            <div class="articles__article">
+              <div class="article__title">
+                <h4 class="content-title">Готовые стратегии для инвестиций</h4>
+                <h5 class="content-subtitle">
+                  Как оформить карту «Мир»: сроки изготовления в банке
+                </h5>
+              </div>
+              <a href="#" class="arrow-btn"
+                ><button><span class="icon-arrow"></span></button
+              ></a>
+            </div>
+            <hr />
+            <div class="articles__article">
+              <div class="article__title">
+                <h4 class="content-title">Кредитная карта «110 дней»</h4>
+                <h5 class="content-subtitle">
+                  Бесплатное обслуживание и 110 дней без процентов
+                </h5>
+              </div>
+              <a href="#" class="arrow-btn"
+                ><button><span class="icon-arrow"></span></button
+              ></a>
+            </div>
+            <a href="#" class="articles__more">
+              <span>Еще Статьи</span>
+              <div>24</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <img src="img/footer_logo.jpg" alt="Райффайзен лого" />
+          <div class="footer__tel footer__container">
+            <div>
+              <a href="tel:+7 495 777-17-17">+7 495 777-17-17</a>
+              <span class="content-subtitle">Для звонков по Москве</span>
+            </div>
+            <div>
+              <a href="tel:+7 495 777-17-17">+7 495 777-17-17</a>
+              <span class="content-subtitle"
+                >Для звонков из других регионов России</span
+              >
+            </div>
+          </div>
+          <hr />
+          <div class="footer__links footer__container">
+            <div>
+              <a class="content-subtitle">О банке</a>
+              <a class="content-subtitle">Задать вопрос</a>
+              <a class="content-subtitle">Качество обслуживания</a>
+              <a class="content-subtitle">Реквизиты</a>
+              <a class="content-subtitle">Противодействие коррупции</a>
+              <a class="content-subtitle">Пресс-центр</a>
+            </div>
+            <div>
+              <a class="content-subtitle">Карьера в банке</a>
+              <a class="content-subtitle">Инвесторам</a>
+              <a class="content-subtitle">Аналитика</a>
+              <a class="content-subtitle"
+                >Продажа и аренда недвижимости банка</a
+              >
+              <a class="content-subtitle">Про Онлайн-банк</a>
+              <a class="content-subtitle">Сервисы</a>
+            </div>
+          </div>
+          <div class="footer__buttons">
+            <a href="#" class="footer-btn">Блог</a
+            ><a href="#" class="footer-btn">Телеграм</a
+            ><a href="#" class="footer-btn">Твиттер</a
+            ><a href="#" class="footer-btn">Вконтакте</a
+            ><a href="#" class="footer-btn">Тикток</a>
+          </div>
+          <div class="footer__description">
+            <p>
+              © 2003 – 2023 АО «Райффайзенбанк». Генеральная лицензия Банка
+              России № 3292 от 17.02.2015.119002, Москва, пл. Смоленская-Сенная,
+              д. 28.Информация о процентных ставках по договорам банковского
+              вклада с физическими лицами. Кодекс корпоративного поведения RBI
+              Group.Центр раскрытия корпоративной информации. Раскрытие
+              информации в соответствии с Указанием Банка России от 28.12.2015
+              года № 3921-У. Продолжая пользование сайтом, я выражаю согласие на
+              обработку моих персональных данных.Политика в отношении обработки
+              персональных данных.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
